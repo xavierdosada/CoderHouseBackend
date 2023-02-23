@@ -32,3 +32,7 @@ class ProductManager {
         }
     }
 } 
+
+const product = new ProductManager()
+product.addProduct("Un producto", "La descripcion", "$20", "El thumbail", "asd123", "45")
+product.getProducts();
